@@ -1,0 +1,33 @@
+// This is used to calculate average from program runtimes in scientific notation
+// The program will repeatedly ask a user for runtimes until the user enters x
+// The program will then calculate the average of the runtimes and display it to the user
+// in scientific notation
+
+#include <cmath>
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string input;
+    double sum = 0;
+    int count = 0;
+    double average;
+    double runtime;
+    cout << "Enter a runtime in scientific notation or x to quit: ";
+    cin >> input;
+    while (input != "x") {
+        runtime = stod(input);
+        sum += runtime;
+        count++;
+        cout << "Enter a runtime in scientific notation or x to quit: ";
+        cin >> input;
+    }
+    if (count == 0) {
+        cout << "No runtimes entered." << endl;
+    } else {
+        average = sum / count;
+        cout << "Average runtime: " << average << endl;
+    }
+    return 0;
+}

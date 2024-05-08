@@ -1,0 +1,141 @@
+==========================================
+N = 16, P = 1
+Elapsed time = 0.007430 ms
+Elapsed time = 0.007206 ms
+Elapsed time = 0.007274 ms
+
+N = 32, P = 1
+Elapsed time = 0.010121 ms
+Elapsed time = 0.011749 ms
+Elapsed time = 0.010154 ms
+
+N = 64, P = 1
+Elapsed time = 0.018889 ms
+Elapsed time = 0.028197 ms
+Elapsed time = 0.017525 ms
+
+N = 128, P = 1
+Elapsed time = 0.054228 ms
+Elapsed time = 0.049369 ms
+Elapsed time = 0.100819 ms
+
+N = 256, P = 1
+Elapsed time = 0.188430 ms
+Elapsed time = 0.200527 ms
+Elapsed time = 0.196037 ms
+
+N = 384, P = 1
+Elapsed time = 0.427315 ms
+Elapsed time = 0.448289 ms
+Elapsed time = 0.438197 ms
+
+N = 512, P = 1
+Elapsed time = 0.809428 ms
+Elapsed time = 0.788722 ms
+Elapsed time = 0.789286 ms
+
+N = 1024, P = 1
+Elapsed time = 3.005395 ms
+Elapsed time = 3.031666 ms
+Elapsed time = 3.145492 ms
+
+N = 2048, P = 1
+Elapsed time = 12.713479 ms
+Elapsed time = 16.339621 ms
+Elapsed time = 19.765069 ms
+
+==========================================
+==========================================
+N = 16, P = 2
+Elapsed time = 0.014888 ms
+Elapsed time = 0.015781 ms
+Elapsed time = 0.011720 ms
+
+N = 32, P = 2
+Elapsed time = 0.024449 ms
+Elapsed time = 0.014546 ms
+Elapsed time = 0.012355 ms
+
+N = 64, P = 2
+Elapsed time = 0.017436 ms
+Elapsed time = 0.017836 ms
+Elapsed time = 0.019144 ms
+
+N = 128, P = 2
+Elapsed time = 0.052624 ms
+Elapsed time = 0.065248 ms
+Elapsed time = 0.060839 ms
+
+N = 256, P = 2
+Elapsed time = 0.106206 ms
+Elapsed time = 0.127286 ms
+Elapsed time = 0.105736 ms
+
+N = 384, P = 2
+Elapsed time = 0.339479 ms
+Elapsed time = 0.421536 ms
+Elapsed time = 0.380672 ms
+
+N = 512, P = 2
+Elapsed time = 0.499788 ms
+Elapsed time = 0.404988 ms
+Elapsed time = 0.417017 ms
+
+N = 1024, P = 2
+Elapsed time = 1.632715 ms
+Elapsed time = 1.738772 ms
+Elapsed time = 1.657811 ms
+
+N = 2048, P = 2
+Elapsed time = 6.960061 ms
+Elapsed time = 6.504973 ms
+Elapsed time = 6.865588 ms
+
+==========================================
+==========================================
+N = 16, P = 4
+Elapsed time = 0.027971 ms
+Elapsed time = 0.031771 ms
+Elapsed time = 0.020640 ms
+
+N = 32, P = 4
+Elapsed time = 0.018340 ms
+Elapsed time = 0.025208 ms
+Elapsed time = 0.070136 ms
+
+N = 64, P = 4
+Elapsed time = 0.093663 ms
+Elapsed time = 0.040132 ms
+Elapsed time = 0.036136 ms
+
+N = 128, P = 4
+Elapsed time = 0.117612 ms
+Elapsed time = 0.109030 ms
+Elapsed time = 0.129478 ms
+
+N = 256, P = 4
+Elapsed time = 0.169449 ms
+Elapsed time = 0.127796 ms
+Elapsed time = 0.126708 ms
+
+N = 384, P = 4
+Elapsed time = 0.150097 ms
+Elapsed time = 0.268330 ms
+Elapsed time = 0.227578 ms
+
+N = 512, P = 4
+Elapsed time = 0.311240 ms
+Elapsed time = 0.457468 ms
+Elapsed time = 0.354836 ms
+
+N = 1024, P = 4
+Elapsed time = 1.491829 ms
+Elapsed time = 1.592464 ms
+Elapsed time = 1.398395 ms
+
+N = 2048, P = 4
+Elapsed time = 5.976537 ms
+Elapsed time = 4.456667 ms
+Elapsed time = 5.442617 ms
+
+==========================================

@@ -1,0 +1,8 @@
+# Run mvmult calling it with 1, 2, & 4 processors, inputting 16x16 matrices when required
+mvmult: mvmult.c
+	mpicc -g -Wall -o mvmult mvmult.c
+	mpirun -n 1 ./mvmult
+
+assistant:	assistant.cpp
+	g++ -g -Wall -o assistant assistant.cpp
+	./assistant
