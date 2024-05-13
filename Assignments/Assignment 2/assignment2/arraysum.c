@@ -59,32 +59,11 @@ int main(int argc, char* argv[]) {
 
     // Step 4: Parallel summation with the parallel directive, as well as a
     // reduction clause to compute global sum into a variable parallelSum
-#pragma omp parallel reduction(+ : parallelSum)
-    {
-        int localSum = 0;                        // Declare a local variable to store the sum of each thread
-        int threadID = omp_get_thread_num();     // Get the thread ID
-        int numThreads = omp_get_num_threads();  // Get the total number of threads
-        int chunkSize = N / numThreads;          // Calculate the chunk size for each thread
-
-        int startIndex = threadID * chunkSize;  // Calculate the starting index for the current thread
-        int endIndex = startIndex + chunkSize;  // Calculate the ending index for the current thread
-
-        // Handle the case where N is not divisible by the number of threads
-        if (threadID == numThreads - 1) {
-            endIndex = N;
-        }
-
-        // Perform the summation for the current thread
-        for (int i = startIndex; i < endIndex; i++) {
-            localSum += arr[i];
-        }
-
-// Accumulate the local sums into the global sum
-#pragma omp critical
-        {
-            parallelSum += localSum;
-        }
+#pragma omp parallel for reduction(+ : parallelSum)
+    for (int i = 0; i < N; i++) {
+        parallelSum += arr[i];
     }
+
     printf("Parallel sum: %d\n", parallelSum);
 
     return 0;
