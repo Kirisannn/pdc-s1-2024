@@ -1,0 +1,7 @@
+mvmult: mvmult.c
+	mpicc -g -Wall -o mvmult mvmult.c
+	mpirun -n 1 ./mvmult
+
+arraysum: arraysum.c
+	gcc -g -Wall -fopenmp -o arraysum arraysum.c
+	./arraysum 4 > arraysum_output.txt

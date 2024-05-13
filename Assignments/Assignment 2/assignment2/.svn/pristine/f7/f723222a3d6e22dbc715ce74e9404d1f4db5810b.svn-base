@@ -1,0 +1,126 @@
+==========================================
+N = 16, P = 1
+Elapsed time = 0.004679 ms
+Elapsed time = 0.007683 ms
+Elapsed time = 0.007543 ms
+
+N = 32, P = 1
+Elapsed time = 0.006076 ms
+Elapsed time = 0.011314 ms
+Elapsed time = 0.011594 ms
+
+N = 64, P = 1
+Elapsed time = 0.014946 ms
+Elapsed time = 0.014806 ms
+Elapsed time = 0.038133 ms
+
+N = 128, P = 1
+Elapsed time = 0.141287 ms
+Elapsed time = 0.048749 ms
+Elapsed time = 0.163217 ms
+
+N = 256, P = 1
+Elapsed time = 0.196879 ms
+Elapsed time = 0.196112 ms
+Elapsed time = 0.448235 ms
+
+N = 512, P = 1
+Elapsed time = 1.745659 ms
+Elapsed time = 0.740168 ms
+Elapsed time = 0.741774 ms
+
+N = 1024, P = 1
+Elapsed time = 2.954106 ms
+Elapsed time = 8.406750 ms
+Elapsed time = 8.322802 ms
+
+N = 2048, P = 1
+Elapsed time = 11.923700 ms
+Elapsed time = 11.880888 ms
+Elapsed time = 11.941998 ms
+
+==========================================
+==========================================
+N = 16, P = 2
+Elapsed time = 0.005588 ms
+Elapsed time = 0.005168 ms
+Elapsed time = 0.009428 ms
+
+N = 32, P = 2
+Elapsed time = 0.010965 ms
+Elapsed time = 0.011035 ms
+Elapsed time = 0.009987 ms
+
+N = 64, P = 2
+Elapsed time = 0.019137 ms
+Elapsed time = 0.012502 ms
+Elapsed time = 0.011245 ms
+
+N = 128, P = 2
+Elapsed time = 0.032406 ms
+Elapsed time = 0.030450 ms
+Elapsed time = 0.061739 ms
+
+N = 256, P = 2
+Elapsed time = 0.228937 ms
+Elapsed time = 0.216435 ms
+Elapsed time = 0.222162 ms
+
+N = 512, P = 2
+Elapsed time = 0.852751 ms
+Elapsed time = 0.384960 ms
+Elapsed time = 0.385867 ms
+
+N = 1024, P = 2
+Elapsed time = 3.432302 ms
+Elapsed time = 1.533344 ms
+Elapsed time = 1.544519 ms
+
+N = 2048, P = 2
+Elapsed time = 6.165783 ms
+Elapsed time = 6.125834 ms
+Elapsed time = 6.040210 ms
+
+==========================================
+==========================================
+N = 16, P = 4
+Elapsed time = 0.011314 ms
+Elapsed time = 0.011314 ms
+Elapsed time = 0.014666 ms
+
+N = 32, P = 4
+Elapsed time = 0.016064 ms
+Elapsed time = 0.012711 ms
+Elapsed time = 0.018437 ms
+
+N = 64, P = 4
+Elapsed time = 0.022418 ms
+Elapsed time = 0.012850 ms
+Elapsed time = 0.031009 ms
+
+N = 128, P = 4
+Elapsed time = 0.038901 ms
+Elapsed time = 0.037644 ms
+Elapsed time = 0.049377 ms
+
+N = 256, P = 4
+Elapsed time = 0.115516 ms
+Elapsed time = 0.130950 ms
+Elapsed time = 0.129135 ms
+
+N = 512, P = 4
+Elapsed time = 0.477988 ms
+Elapsed time = 0.431544 ms
+Elapsed time = 0.495587 ms
+
+N = 1024, P = 4
+Elapsed time = 1.704663 ms
+Elapsed time = 2.583463 ms
+Elapsed time = 2.185583 ms
+
+N = 2048, P = 4
+Elapsed time = 6.764874 ms
+Elapsed time = 6.688747 ms
+Elapsed time = 8.324268 ms
+
+==========================================
