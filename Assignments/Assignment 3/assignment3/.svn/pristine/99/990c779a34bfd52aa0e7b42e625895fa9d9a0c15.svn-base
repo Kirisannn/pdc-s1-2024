@@ -1,0 +1,143 @@
+Shang-Ian Tan, a1818695 - 2024.05.24
+
+=======================================================================================================================================
+column1.c:
+* Timing code has been added.
+* Timing code will compute the elapsed time of the N body problem calculation in 
+* each process and then the maximum elapsed time of all processes.
+
+Purpose: Calculate and collect timings of the N body problem using the basic solver with default scheduling.
+
+Compile:  gcc -g -Wall -fopenmp -o column1 column1.c -lm
+          To turn off output except for timing results, define NO_OUTPUT
+          To get verbose output, define DEBUG
+
+Run:      ./column1 <number of threads> <number of particles>
+             <number of timesteps>  <size of timestep>
+             <output frequency> <g|i>
+             'g': generate initial conditions using a random number
+                  generator
+             'i': read initial conditions from stdin
+          A timestep of 0.01 seems to work reasonably well for
+          the automatically generated data.
+
+Analysis Methodology:
+1. Instrumentation:
+    Timings were collected using OpenMP timing functions strategically placed before and after the main computation loop.
+    i. `omp_get_wtime()`: Placed before & after, to begin and end timing respectively.
+
+2. Data Collection:
+    Timings were collected for 1, 2, and 4 processors. The fastest of 10 calls to the program for 
+    each core count was taken to minimize the impact of unrelated background processes. 
+
+3. Data Analysis:
+    The collected timing data was input into Microsoft Excel for formatting and presentation.
+    A table was constructed to display the fastest runtime for each core count, allowing for comparison of performance.
+=======================================================================================================================================
+
+=======================================================================================================================================
+column2.c:
+* Scheduling code has been removed.
+* Timing code will compute the elapsed time of the N body problem calculation in
+* each process and then the maximum elapsed time of all processes.
+
+Purpose: Calculate and collect timings of the N body problem using the basic solver with default scheduling.
+
+Compile:  gcc -g -Wall -fopenmp -o column2 column2.c -lm
+          To turn off output except for timing results, define NO_OUTPUT
+          To get verbose output, define DEBUG
+
+Run:      ./column2 <number of threads> <number of particles>
+             <number of timesteps>  <size of timestep>
+             <output frequency> <g|i>
+             'g': generate initial conditions using a random number
+                  generator
+             'i': read initial conditions from stdin
+          A timestep of 0.01 seems to work reasonably well for
+          the automatically generated data.
+
+Analysis Methodology:
+1. Instrumentation:
+    Timings were collected using OpenMP timing functions strategically placed before and after the main computation loop.
+    i. `omp_get_wtime()`: Placed before & after, to begin and end timing respectively.
+
+2. Data Collection:
+    Timings were collected for 1, 2, and 4 processors. The fastest of 10 calls to the program for 
+    each core count was taken to minimize the impact of unrelated background processes. 
+
+3. Data Analysis:
+    The collected timing data was input into Microsoft Excel for formatting and presentation. 
+    A table was constructed to display the fastest runtime for each core count, allowing for comparison of performance.
+=======================================================================================================================================
+
+=======================================================================================================================================
+column3.c:
+* Timing code has been added.
+* Timing code will compute the elapsed time of the N body problem calculation in
+* each process and then the maximum elapsed time of all processes.
+
+Compile:  gcc -g -Wall -fopenmp -o column3 column3.c -lm
+          To turn off output except for timing results, define NO_OUTPUT
+          To get verbose output, define DEBUG
+
+Run:      ./column3 <number of threads> <number of particles>
+             <number of timesteps>  <size of timestep>
+             <output frequency> <g|i>
+             'g': generate initial conditions using a random number
+                  generator
+             'i': read initial conditions from stdin
+          A timestep of 0.01 seems to work reasonably well for
+          the automatically generated data.
+
+Analysis Methodology:
+1. Instrumentation:
+    Timings were collected using OpenMP timing functions strategically placed before and after the main computation loop.
+    i. `omp_get_wtime()`: Placed before & after, to begin and end timing respectively.
+
+2. Data Collection:
+    Timings were collected for 1, 2, and 4 processors. The fastest of 10 calls to the program for 
+    each core count was taken to minimize the impact of unrelated background processes. 
+
+3. Data Analysis:
+    The collected timing data was input into Microsoft Excel for formatting and presentation. 
+    A table was constructed to display the fastest runtime for each core count, allowing for comparison of performance.
+=======================================================================================================================================
+
+=======================================================================================================================================
+column4.c:
+* Scheduling code has been added to all OMP loops.
+* Timing code will compute the elapsed time of the N body problem calculation in
+* each process and then the maximum elapsed time of all processes.
+
+Compile:  gcc -g -Wall -fopenmp -o column4 column4.c -lm
+          To turn off output except for timing results, define NO_OUTPUT
+          To get verbose output, define DEBUG
+
+Run:      ./column4 <number of threads> <number of particles>
+             <number of timesteps>  <size of timestep>
+             <output frequency> <g|i>
+             'g': generate initial conditions using a random number
+                  generator
+             'i': read initial conditions from stdin
+          A timestep of 0.01 seems to work reasonably well for
+          the automatically generated data.
+
+Analysis Methodology:
+1. Instrumentation:
+    Timings were collected using OpenMP timing functions strategically placed before and after the main computation loop.
+    i. `omp_get_wtime()`: Placed before & after, to begin and end timing respectively.
+
+2. Data Collection:
+    Timings were collected for 1, 2, and 4 processors. The fastest of 10 calls to the program for 
+    each core count was taken to minimize the impact of unrelated background processes. 
+
+3. Data Analysis:
+    The collected timing data was input into Microsoft Excel for formatting and presentation. 
+    A table was constructed to display the fastest runtime for each core count, allowing for comparison of performance.
+=======================================================================================================================================
+
+Additional Files:
+    Makefile - Used for easier compilation and initial serial testing.
+    test_script.sh - Used to automate testing procedure and with higher accuracy.
+    Results Table.xlsx - Used to store the data collected from the test_script.sh.
+    Plotting.ipynb - Used to plot the data collected from the test_script.sh.
