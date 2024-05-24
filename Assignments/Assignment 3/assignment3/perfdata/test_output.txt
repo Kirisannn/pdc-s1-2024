@@ -12,7 +12,7 @@ Basic-8: Elapsed time = 2.731118e+00 seconds
 Basic-9: Elapsed time = 2.702808e+00 seconds
 Basic-10: Elapsed time = 2.689897e+00 seconds
 
-Minimum of Basic 1 core: 
+Minimum of Basic 1 core: 2.577017e+00 seconds
 =======================================================
 
 =======================================================
@@ -27,7 +27,7 @@ Reduced Default-8: Elapsed time = 1.503723e+00 seconds
 Reduced Default-9: Elapsed time = 1.489849e+00 seconds
 Reduced Default-10: Elapsed time = 1.493057e+00 seconds
 
-Minimum of Reduced Default 1 core: 
+Minimum of Reduced Default 1 core: 1.489849e+00 seconds
 =======================================================
 
 =======================================================
@@ -42,7 +42,7 @@ Reduced Forces-8: Elapsed time = 1.519107e+00 seconds
 Reduced Forces-9: Elapsed time = 1.495046e+00 seconds
 Reduced Forces-10: Elapsed time = 1.502319e+00 seconds
 
-Minimum of Reduced Forces 1 core: 
+Minimum of Reduced Forces 1 core: 1.472475e+00 seconds
 =======================================================
 
 =======================================================
@@ -57,7 +57,7 @@ Reduced All-8: Elapsed time = 1.541394e+00 seconds
 Reduced All-9: Elapsed time = 1.599465e+00 seconds
 Reduced All-10: Elapsed time = 1.585072e+00 seconds
 
-Minimum of Reduced All 1 core: 
+Minimum of Reduced All 1 core: 1.495684e+00 seconds
 =======================================================
 
 
@@ -75,7 +75,7 @@ Basic-8: Elapsed time = 1.359470e+00 seconds
 Basic-9: Elapsed time = 1.394551e+00 seconds
 Basic-10: Elapsed time = 1.964045e+00 seconds
 
-Minimum of Basic 2 core: 
+Minimum of Basic 2 core: 1.359470e+00 seconds
 =======================================================
 
 =======================================================
@@ -90,7 +90,7 @@ Reduced Default-8: Elapsed time = 1.134126e+00 seconds
 Reduced Default-9: Elapsed time = 1.153453e+00 seconds
 Reduced Default-10: Elapsed time = 1.161431e+00 seconds
 
-Minimum of Reduced Default 2 core: 
+Minimum of Reduced Default 2 core: 1.112138e+00 seconds
 =======================================================
 
 =======================================================
@@ -105,7 +105,7 @@ Reduced Forces-8: Elapsed time = 9.581765e-01 seconds
 Reduced Forces-9: Elapsed time = 9.918821e-01 seconds
 Reduced Forces-10: Elapsed time = 8.805706e-01 seconds
 
-Minimum of Reduced Forces 2 core: 
+Minimum of Reduced Forces 2 core: 8.070799e-01 seconds
 =======================================================
 
 =======================================================
@@ -120,7 +120,7 @@ Reduced All-8: Elapsed time = 9.082088e-01 seconds
 Reduced All-9: Elapsed time = 9.151773e-01 seconds
 Reduced All-10: Elapsed time = 9.451929e-01 seconds
 
-Minimum of Reduced All 2 core: 
+Minimum of Reduced All 2 core: 9.082088e-01 seconds
 =======================================================
 
 
@@ -138,7 +138,7 @@ Basic-8: Elapsed time = 3.173575e+00 seconds
 Basic-9: Elapsed time = 1.728841e+00 seconds
 Basic-10: Elapsed time = 1.645959e+00 seconds
 
-Minimum of Basic 4 core: 
+Minimum of Basic 4 core: 1.645959e+00 seconds
 =======================================================
 
 =======================================================
@@ -153,7 +153,7 @@ Reduced Default-8: Elapsed time = 6.755646e-01 seconds
 Reduced Default-9: Elapsed time = 6.901999e-01 seconds
 Reduced Default-10: Elapsed time = 6.862427e-01 seconds
 
-Minimum of Reduced Default 4 core: 
+Minimum of Reduced Default 4 core: 6.710399e-01 seconds
 =======================================================
 
 =======================================================
@@ -168,7 +168,7 @@ Reduced Forces-8: Elapsed time = 4.735363e-01 seconds
 Reduced Forces-9: Elapsed time = 4.489858e-01 seconds
 Reduced Forces-10: Elapsed time = 4.735832e-01 seconds
 
-Minimum of Reduced Forces 4 core: 
+Minimum of Reduced Forces 4 core: 4.374142e-01 seconds
 =======================================================
 
 =======================================================
@@ -183,7 +183,5 @@ Reduced All-8: Elapsed time = 6.737886e-01 seconds
 Reduced All-9: Elapsed time = 6.705457e-01 seconds
 Reduced All-10: Elapsed time = 6.730675e-01 seconds
 
-Minimum of Reduced All 4 core: 
+Minimum of Reduced All 4 core: 4.840038e-01 seconds
 =======================================================
-
-
