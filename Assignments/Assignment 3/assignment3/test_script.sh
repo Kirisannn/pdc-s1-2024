@@ -22,7 +22,7 @@ do
 
     # average_basic=$(echo "scale=6; $total_time_basic / 10" | bc)
     echo "" >> perfdata/test_output.txt
-    echo "Average of Basic $i core: " >> perfdata/test_output.txt
+    echo "Minimum of Basic $i core: " >> perfdata/test_output.txt
 
     echo -e "=======================================================\n" >> perfdata/test_output.txt
 
@@ -37,7 +37,7 @@ do
     done
 
     echo "" >> perfdata/test_output.txt
-    echo "Average of Reduced Default $i core: " >> perfdata/test_output.txt
+    echo "Minimum of Reduced Default $i core: " >> perfdata/test_output.txt
     echo -e "=======================================================\n" >> perfdata/test_output.txt
 
     echo "=======================================================" >> perfdata/test_output.txt
@@ -50,7 +50,7 @@ do
     done
 
     echo "" >> perfdata/test_output.txt
-    echo "Average of Reduced Forces $i core: " >> perfdata/test_output.txt
+    echo "Minimum of Reduced Forces $i core: " >> perfdata/test_output.txt
     echo -e "=======================================================\n" >> perfdata/test_output.txt
 
     echo "=======================================================" >> perfdata/test_output.txt
@@ -63,6 +63,6 @@ do
     done
 
     echo "" >> perfdata/test_output.txt
-    echo "Average of Reduced All $i core: " >> perfdata/test_output.txt
+    echo "Minimum of Reduced All $i core: " >> perfdata/test_output.txt
     echo -e "=======================================================\n\n" >> perfdata/test_output.txt
 done

@@ -1,19 +1,19 @@
-/* File:     omp_nbody_red.c
+/* File:     column2.c
  *
- * Purpose:  Use OpenMP to parallelize a 2-dimensional n-body solver 
- *           that uses the reduced algorithm.  This version uses one 
+ * Purpose:  Use OpenMP to parallelize a 2-dimensional n-body solver
+ *           that uses the reduced algorithm.  This version uses one
  *           array per thread to store locally computed forces.
  *           These forces are then added into a shared array.  It
  *           uses a block schedule for each of the parallel for
  *           except the loop that computes forces, which uses
  *           a cyclic distribution.
  *
- * Compile:  gcc -g -Wall -fopenmp -o omp_nbody_red omp_nbody_red.c -lm
+ * Compile:  gcc -g -Wall -fopenmp -o column2 column2.c -lm
  *           To turn off output (e.g., when timing), define NO_OUTPUT
  *           To get verbose output, define DEBUG
  *
- * Run:      ./omp_nbody_red <number of threads> <number of particles>
- *              <number of timesteps>  <size of timestep> 
+ * Run:      ./column2 <number of threads> <number of particles>
+ *              <number of timesteps>  <size of timestep>
  *              <output frequency> <g|i>
  *              'g': generate initial conditions using a random number
  *                   generator
@@ -21,10 +21,10 @@
  *            0.01 seems to work well as a timestep for the automatically
  *            generated data.
  *
- * Input:    If 'g' is specified on the command line, none.  
- *           If 'i', mass, initial position and initial velocity of 
+ * Input:    If 'g' is specified on the command line, none.
+ *           If 'i', mass, initial position and initial velocity of
  *              each particle
- * Output:   If the output frequency is k, then position and velocity of 
+ * Output:   If the output frequency is k, then position and velocity of
  *              each particle at every kth timestep
  *
  * Force:    The force on particle i due to particle k is given by
@@ -32,10 +32,10 @@
  *    -G m_i m_k (s_i - s_k)/|s_i - s_k|^3
  *
  * Here, m_j is the mass of particle j, s_j is its position vector
- * (at time t), and G is the gravitational constant (see below).  
+ * (at time t), and G is the gravitational constant (see below).
  *
- * Note that the force on particle k due to particle i is 
- * -(force on i due to k).  So we can approximately halve the number 
+ * Note that the force on particle k due to particle i is
+ * -(force on i due to k).  So we can approximately halve the number
  * of force computations.
  *
  * Integration:  We use Euler's method:
@@ -136,7 +136,7 @@ int main(int argc, char* argv[]) {
 #        endif
          /* Particle n-1 will have all forces computed after call to
           * Compute_force(n-2, . . .) */
-#        pragma omp for schedule(static,1)
+#        pragma omp for
          for (part = 0; part < n-1; part++)
             Compute_force(part, loc_forces + my_rank*n, curr, n);
 #        pragma omp for 

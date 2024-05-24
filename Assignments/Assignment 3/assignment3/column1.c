@@ -1,4 +1,4 @@
-/* File:     omp_nbody_basic.c
+/* File:     column1.c
  * Purpose:  Implement a 2-dimensional n-body solver that uses the
  *           basic algorithm.  So this version directly computes
  *           all the forces.
