@@ -1,0 +1,189 @@
+=======================================================
+1 core
+=======================================================
+Basic-1: Elapsed time = 2.563845e+00 seconds
+Basic-2: Elapsed time = 2.595078e+00 seconds
+Basic-3: Elapsed time = 2.579710e+00 seconds
+Basic-4: Elapsed time = 2.578160e+00 seconds
+Basic-5: Elapsed time = 2.577524e+00 seconds
+Basic-6: Elapsed time = 2.623863e+00 seconds
+Basic-7: Elapsed time = 2.619379e+00 seconds
+Basic-8: Elapsed time = 2.589589e+00 seconds
+Basic-9: Elapsed time = 2.544504e+00 seconds
+Basic-10: Elapsed time = 2.609973e+00 seconds
+
+Average of Basic 1 core: 
+=======================================================
+
+=======================================================
+Reduced Default-1: Elapsed time = 2.571771e+00 seconds
+Reduced Default-2: Elapsed time = 2.606196e+00 seconds
+Reduced Default-3: Elapsed time = 2.543133e+00 seconds
+Reduced Default-4: Elapsed time = 2.570802e+00 seconds
+Reduced Default-5: Elapsed time = 2.550278e+00 seconds
+Reduced Default-6: Elapsed time = 2.570895e+00 seconds
+Reduced Default-7: Elapsed time = 2.558448e+00 seconds
+Reduced Default-8: Elapsed time = 2.566333e+00 seconds
+Reduced Default-9: Elapsed time = 2.591875e+00 seconds
+Reduced Default-10: Elapsed time = 2.810531e+00 seconds
+
+Average of Reduced Default 1 core: 
+=======================================================
+
+=======================================================
+Reduced Forces-1: Elapsed time = 1.492346e+00 seconds
+Reduced Forces-2: Elapsed time = 1.474618e+00 seconds
+Reduced Forces-3: Elapsed time = 1.478168e+00 seconds
+Reduced Forces-4: Elapsed time = 1.485508e+00 seconds
+Reduced Forces-5: Elapsed time = 1.483754e+00 seconds
+Reduced Forces-6: Elapsed time = 1.487476e+00 seconds
+Reduced Forces-7: Elapsed time = 1.484457e+00 seconds
+Reduced Forces-8: Elapsed time = 1.518103e+00 seconds
+Reduced Forces-9: Elapsed time = 1.485426e+00 seconds
+Reduced Forces-10: Elapsed time = 1.526700e+00 seconds
+
+Average of Reduced Forces 1 core: 
+=======================================================
+
+=======================================================
+Reduced All-1: Elapsed time = 1.484958e+00 seconds
+Reduced All-2: Elapsed time = 1.494191e+00 seconds
+Reduced All-3: Elapsed time = 1.469868e+00 seconds
+Reduced All-4: Elapsed time = 1.487264e+00 seconds
+Reduced All-5: Elapsed time = 1.523713e+00 seconds
+Reduced All-6: Elapsed time = 1.458150e+00 seconds
+Reduced All-7: Elapsed time = 1.493759e+00 seconds
+Reduced All-8: Elapsed time = 1.488673e+00 seconds
+Reduced All-9: Elapsed time = 1.496983e+00 seconds
+Reduced All-10: Elapsed time = 1.472939e+00 seconds
+
+Average of Reduced All 1 core: 
+=======================================================
+
+
+=======================================================
+2 core
+=======================================================
+Basic-1: Elapsed time = 1.385727e+00 seconds
+Basic-2: Elapsed time = 1.320969e+00 seconds
+Basic-3: Elapsed time = 1.366765e+00 seconds
+Basic-4: Elapsed time = 1.368060e+00 seconds
+Basic-5: Elapsed time = 1.321406e+00 seconds
+Basic-6: Elapsed time = 1.431985e+00 seconds
+Basic-7: Elapsed time = 1.352107e+00 seconds
+Basic-8: Elapsed time = 1.355748e+00 seconds
+Basic-9: Elapsed time = 1.363073e+00 seconds
+Basic-10: Elapsed time = 1.430899e+00 seconds
+
+Average of Basic 2 core: 
+=======================================================
+
+=======================================================
+Reduced Default-1: Elapsed time = 1.351987e+00 seconds
+Reduced Default-2: Elapsed time = 1.363797e+00 seconds
+Reduced Default-3: Elapsed time = 1.376343e+00 seconds
+Reduced Default-4: Elapsed time = 1.317653e+00 seconds
+Reduced Default-5: Elapsed time = 1.361615e+00 seconds
+Reduced Default-6: Elapsed time = 1.338804e+00 seconds
+Reduced Default-7: Elapsed time = 1.315164e+00 seconds
+Reduced Default-8: Elapsed time = 1.341003e+00 seconds
+Reduced Default-9: Elapsed time = 1.313559e+00 seconds
+Reduced Default-10: Elapsed time = 1.393034e+00 seconds
+
+Average of Reduced Default 2 core: 
+=======================================================
+
+=======================================================
+Reduced Forces-1: Elapsed time = 7.724114e-01 seconds
+Reduced Forces-2: Elapsed time = 7.701538e-01 seconds
+Reduced Forces-3: Elapsed time = 7.945578e-01 seconds
+Reduced Forces-4: Elapsed time = 8.027441e-01 seconds
+Reduced Forces-5: Elapsed time = 7.723124e-01 seconds
+Reduced Forces-6: Elapsed time = 7.763884e-01 seconds
+Reduced Forces-7: Elapsed time = 7.933353e-01 seconds
+Reduced Forces-8: Elapsed time = 7.766689e-01 seconds
+Reduced Forces-9: Elapsed time = 7.729806e-01 seconds
+Reduced Forces-10: Elapsed time = 7.750889e-01 seconds
+
+Average of Reduced Forces 2 core: 
+=======================================================
+
+=======================================================
+Reduced All-1: Elapsed time = 7.886663e-01 seconds
+Reduced All-2: Elapsed time = 7.848672e-01 seconds
+Reduced All-3: Elapsed time = 8.299779e-01 seconds
+Reduced All-4: Elapsed time = 7.849153e-01 seconds
+Reduced All-5: Elapsed time = 7.755309e-01 seconds
+Reduced All-6: Elapsed time = 7.957476e-01 seconds
+Reduced All-7: Elapsed time = 7.752303e-01 seconds
+Reduced All-8: Elapsed time = 7.733927e-01 seconds
+Reduced All-9: Elapsed time = 7.673021e-01 seconds
+Reduced All-10: Elapsed time = 7.863504e-01 seconds
+
+Average of Reduced All 2 core: 
+=======================================================
+
+
+=======================================================
+4 core
+=======================================================
+Basic-1: Elapsed time = 4.176533e+00 seconds
+Basic-2: Elapsed time = 2.958323e+00 seconds
+Basic-3: Elapsed time = 2.890021e+00 seconds
+Basic-4: Elapsed time = 3.757735e+00 seconds
+Basic-5: Elapsed time = 2.183149e+00 seconds
+Basic-6: Elapsed time = 2.749875e+00 seconds
+Basic-7: Elapsed time = 3.402061e+00 seconds
+Basic-8: Elapsed time = 7.523079e-01 seconds
+Basic-9: Elapsed time = 7.794482e-01 seconds
+Basic-10: Elapsed time = 7.440153e-01 seconds
+
+Average of Basic 4 core: 
+=======================================================
+
+=======================================================
+Reduced Default-1: Elapsed time = 7.471919e-01 seconds
+Reduced Default-2: Elapsed time = 7.603596e-01 seconds
+Reduced Default-3: Elapsed time = 7.358784e-01 seconds
+Reduced Default-4: Elapsed time = 7.575538e-01 seconds
+Reduced Default-5: Elapsed time = 7.498395e-01 seconds
+Reduced Default-6: Elapsed time = 7.526558e-01 seconds
+Reduced Default-7: Elapsed time = 7.108459e-01 seconds
+Reduced Default-8: Elapsed time = 7.766236e-01 seconds
+Reduced Default-9: Elapsed time = 7.996132e-01 seconds
+Reduced Default-10: Elapsed time = 7.112973e-01 seconds
+
+Average of Reduced Default 4 core: 
+=======================================================
+
+=======================================================
+Reduced Forces-1: Elapsed time = 4.574026e-01 seconds
+Reduced Forces-2: Elapsed time = 4.282100e-01 seconds
+Reduced Forces-3: Elapsed time = 4.701705e-01 seconds
+Reduced Forces-4: Elapsed time = 4.256112e-01 seconds
+Reduced Forces-5: Elapsed time = 4.301431e-01 seconds
+Reduced Forces-6: Elapsed time = 2.063166e+00 seconds
+Reduced Forces-7: Elapsed time = 2.024940e+00 seconds
+Reduced Forces-8: Elapsed time = 4.261920e-01 seconds
+Reduced Forces-9: Elapsed time = 4.224679e-01 seconds
+Reduced Forces-10: Elapsed time = 4.363515e-01 seconds
+
+Average of Reduced Forces 4 core: 
+=======================================================
+
+=======================================================
+Reduced All-1: Elapsed time = 4.262135e-01 seconds
+Reduced All-2: Elapsed time = 4.212751e-01 seconds
+Reduced All-3: Elapsed time = 4.237702e-01 seconds
+Reduced All-4: Elapsed time = 4.224347e-01 seconds
+Reduced All-5: Elapsed time = 4.448571e-01 seconds
+Reduced All-6: Elapsed time = 4.220852e-01 seconds
+Reduced All-7: Elapsed time = 4.283668e-01 seconds
+Reduced All-8: Elapsed time = 4.349917e-01 seconds
+Reduced All-9: Elapsed time = 4.662174e-01 seconds
+Reduced All-10: Elapsed time = 4.336247e-01 seconds
+
+Average of Reduced All 4 core: 
+=======================================================
+
+
